@@ -31,6 +31,7 @@ main {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 aside img {
     border: 1px solid steelblue;
