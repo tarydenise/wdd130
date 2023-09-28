@@ -10,10 +10,11 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
 img {
     width: 150px;
@@ -26,7 +27,16 @@ p {
     padding: 10px;
 }
 main {
-    max-width: 840px;
+    max-width: 640px;
+}
+main img {
+    width: 190px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 1rem 0 1rem 1rem;
 }
 aside {
     width: 20em;
@@ -35,18 +45,16 @@ aside {
 }
 aside img {
     border: 1px solid steelblue;
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 aside h2 {
     position: absolute;
-}
-main img {
-    width: 150px;
-    height: auto;
-    float: right;
+    left: 80px;
+    top: 35px
 }
 p  {
+    margin: 1rem;
     padding: 0;
 }
 footer {
@@ -57,8 +65,11 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid steelblue;
+    border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: steelblue;
-    color: #fff;
+    background-color: #eee;
+    color: #000;
+}
+.indent {
+    padding-left: 2rem;
 }
