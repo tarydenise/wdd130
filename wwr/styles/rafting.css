@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #181b71;
+    --secondary-color: #adb0bc;
+    --accent1-color: #181b71;
+    --accent2-color: #f2f3f4;
+
+    --heading-font: 'caprasimo', serif;
+    --paragraph-font: 'roboto', serif;
+
+    --nav-background-color: #adb0bc;
+    --nav-link-color: #104234;
+    --nav-hover-link-color: #adb0bc;
+    --nav-hover-background-color: #181b71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-color);
+    background-color: #f2f3f4;
+    /* max-width: 960px; */
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom:10px;
+    left: 5px;
+    margin: 10px;
+    border:2px solid #adb0bc;
+    background-color: #181b71;
+    color: #f2f3f4;
+    opacity: .8;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #f2f3f4;
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
