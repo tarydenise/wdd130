@@ -42,22 +42,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 20px;
-    background-color: var(--secondary-color);
+    background-color: #104234;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    border: 2px solid #181b71;
 }
 
 p {
     padding: 25px;
 }
 
+#logo {
+    padding: 30px;
+}
+
 nav {
-    background-color: var(--nav-background-color);
+    background-color: #adb0bc;
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid #f2f3f4;
 }
 
 nav a {
-    display: block;
+    /* display: block; */
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
@@ -79,7 +90,7 @@ nav a:hover {
 
 .hero article {
     position: absolute;
-    bottom:10px;
+    bottom:140px;
     left: 5px;
     margin: 10px;
     border:2px solid #adb0bc;
@@ -88,17 +99,24 @@ nav a:hover {
     opacity: .8;
 }
 
+article h2 {
+    color: #f2f3f4;
+    text-align: center;
+}
+
 .hero h1 {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 250px;
     color: #f2f3f4;
+    font-size: 50px;
 }
 
 .hero article img {
     width: 200px;
     height: auto;
     float: right;
+    padding: 10px;
 }
 
 .hero img {
@@ -107,6 +125,43 @@ nav a:hover {
     height: auto;
 }
 
+#history {
+    background-color: #adb0bc;
+    margin: 20px auto;
+    border: 2px solid #181b71;
+
+}
+
+#history h2 {
+    text-align: center;
+}
+
+.icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#adventure {
+    background-color: #adb0bc;
+    border: 2px solid #181b71;
+    padding: 20px;
+    text-align: center;
+}
+
+#adventure h2 {
+    text-align: center;
+}
+
 .sociallinks {
     text-decoration: none;
+    justify-content: end;
+    margin-top: 20px;
+    border: 2px solid #181b71;
+}
+
+footer {
+    background-color: #104234;
 }
