@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Young+Serif&display=swap');
+
+body {
+    font-family: "ar one sans", "young serif";
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.q1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.q1 label {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.q1 input {
+    margin-top: 20px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.q2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.q2 label {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.q2 textarea {
+    margin-top: 20px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.q3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.q3 label {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.q3 select {
+    margin-top: 20px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.q4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.q4 img {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-left: 100px;
+}
+
+.q4 label {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.q4 input {
+    grid-column: 1/4;
+    margin-top: 10px;
+}
+
+strong {
+    color: navy;
+}
