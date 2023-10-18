@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapids Rafting - Contact Us</title>
+    <meta name="description" content="this page displays the company's contact information for users">
+    <meta name="author" content="Tary-Denise Pohahau">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/rapids_logo.jpg" alt="Rapids Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Address: 555 Washington Avenue, San Leandro, Califorfnia 94555</p>
+        <p>Phone number: (707) 555-0987</p>
+        <p>Email: RapidsRafting@gmail.com</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16596.35608392903!2d-122.11042789538156!3d37.73068568540246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697522777470!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="employees">
+            <figure>
+                <img src="images/bella.jpg" alt="employee">
+                <figcaption>Bella Swan</figcaption>
+            </figure>
+            <figure id="nessie">
+                <img src="images/nessie.jpg" alt="employee">
+                <figcaption>Renesmee "Nessie" Carlie</figcaption>
+            </figure>
+            <figure>
+                <img src="images/edward.jpg" alt="employee">
+                <figcaption>Edward Cullen</figcaption>
+            </figure>
+        </div>
+        <form>
+            <h2>Questions? Contact Us:</h2>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="email">Email :</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Write a Message</legend>
+                <label> Purpose of the message: </label>
+                <label for="inquiry">General Inquiry</label>
+                <input type="radio" id="inquiry" name="inquiry">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="reservation" name="reservation">
+                <label for="suggestion">Website Suggestion</label>
+                <input type="radio" id="suggestion" name="suggestion">
+                <label for="message">Write a message: </label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Type message here... "></textarea>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <nav class="sociallinks">
+            <p>©️2023 | Rapids Rafting | Tary-Denise Pohahau</p>
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
