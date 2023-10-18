@@ -41,13 +41,19 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-header {
+header{
     background-color: #104234;
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
     border: 2px solid #181b71;
 }
+
+footer {
+    background-color: #104234;
+    padding: 20px;
+}
+
 h2 {
     text-align: center;
 }
@@ -59,6 +65,8 @@ p {
 
 .map {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -93,7 +101,7 @@ nav a:hover {
 
 .hero {
     position: relative;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .hero article {
@@ -120,6 +128,10 @@ article h2 {
     font-size: 50px;
 }
 
+.contact h1 {
+    text-align: center;
+}
+
 .hero article img {
     width: 200px;
     height: auto;
@@ -133,11 +145,10 @@ article h2 {
     height: auto;
 }
 
-#history {
+#history, .contact {
     background-color: #adb0bc;
     margin: 20px auto;
     border: 2px solid #181b71;
-
 }
 
 #history h2 {
@@ -158,10 +169,18 @@ article h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    background-color: #adb0bc;
+    /* color: #eee; */
+    padding: 30px;
+    border: 2px solid #181b71;
 }
 
 
+
+.employees img {
+    border: 2px solid #5c4033;
+}
 
 #adventure {
     background-color: #adb0bc;
@@ -185,6 +204,7 @@ form {
     width: 650px;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 1rem;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.5rem;
@@ -217,8 +237,6 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-
-
 button {
     margin: 1rem;
     background-color: navy;
@@ -231,8 +249,4 @@ button {
 
 button:hover {
     background-color: darkgreen;
-}
-
-footer {
-    background-color: #104234;
 }
