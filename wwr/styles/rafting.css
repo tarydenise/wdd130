@@ -104,6 +104,12 @@ nav a:hover {
     /* margin-top: 1rem; */
 }
 
+.home-hero h1 {
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+
 .hero article {
     position: absolute;
     bottom:140px;
@@ -128,7 +134,12 @@ article h2 {
     font-size: 50px;
 }
 
-.contact h1 {
+#trips-link {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact, .contact h1 {
     text-align: center;
 }
 
@@ -249,4 +260,65 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+.contact {
+    margin: 20px 250px;
+}
+
+.house-grid, .store-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.background {
+    background-color: #104234;
+}
+
+.store {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.store-grid img {
+    grid-column: 1/2;
+}
+
+.gryffindor {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: .9;
+}
+
+.slytherin {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.hufflepuff {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.ravenclaw {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+table, th, td {
+    border: 1px solid;
+    margin: 30px;
+    text-align: center;
+  }
+
+th {
+    background-color: #adb0bc;
+}
+
+thead {
+    background-color: #adb0bc;
+}
+
+.table {
+    border: 2px solid #181b71;
+    margin: 20px 0;
 }
